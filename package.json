@@ -1,0 +1,14 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "btw": "npx tailwindcss build style.css -o output.css"
+  },
+  "author": "YL",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
