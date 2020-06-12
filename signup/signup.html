@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>SignUp</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../output.css" />
+  </head>
+  <body class="font-sans">
+    <div class="h-screen w-100 bg-purple-600 flex items-center justify-center">
+      <div class="border-2 border-purple-700 flex flex-col sm:w-full md:w-3/4 lg:w-3/5">
+        <div class="bg-purple-300 py-16 pl-10">
+          <h2 class="text-xl text-purple-600 leading-tight tracking-wider">
+            Join Our Community
+          </h2>
+        </div>
+        <div class="bg-purple-800 text-lg text-white p-10 flex flex-col">
+          <div class="flex mb-4">
+            <div class="h-24 w-24 border-purple-700 mr-4 border-2 rounded-lg">
+              <img
+                src="https://images.unsplash.com/photo-1532074205216-d0e1f4b87368?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&w=144&h=144&q=80&fit=facearea&facepad=2.5"
+                alt="Profile Pic"
+                class="h-100 w-100 rounded-lg"
+              />
+            </div>
+            <div class="flex-1 grid grid-rows-2 grid-flow-col gap-4">
+              <div>
+                <input
+                  type="text"
+                  class="textbox hover:bg-purple-400 focus:bg-purple-400 placeholder-white"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="textbox hover:bg-purple-400 focus:bg-purple-400 placeholder-white"
+                  placeholder="Select Gender"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="textbox hover:bg-purple-400 focus:bg-purple-400 placeholder-white"
+                  placeholder="Username"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="textbox py-2 hover:bg-purple-400 focus:bg-purple-400 placeholder-white"
+                  placeholder="Country"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-3 gap-4">
+            <div>
+              <input
+                type="text"
+                class="textbox py-2 hover:bg-purple-400 focus:bg-purple-400 placeholder-white"
+                placeholder="Email"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                class="textbox py-2 hover:bg-purple-400 focus:bg-purple-400 placeholder-white"
+                placeholder="Password"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                class="textbox py-2 hover:bg-purple-400 focus:bg-purple-400 placeholder-white"
+                placeholder="Date Of Birth"
+              />
+            </div>
+          </div>
+          <div class="flex mt-4 mx-10 mb-10">
+            <input
+              type="checkbox"
+              class="mr-4 leading-tight self-center cursor-pointer"
+              id="checkbox"
+            />
+            <label
+              class="flex-1 text-xs text-normal tracking-wide cursor-pointer"
+              for="checkbox"
+              >I acknowledge that I have read and accept the Terms of Use
+              Agreement and content to the Privacy Policy and Video Privacy
+              Policy.</label
+            >
+          </div>
+          <div class="flex justify-center items-center">
+            <button
+              class="bg-purple-300 text-purple-600 text-sm border-2 border-purple-700 outline-none py-2 px-6 text-medium rounded-full hover:bg-purple-400 focus:bg-purple-400 hover:text-white focus:text-white"
+            >
+              Create Account
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

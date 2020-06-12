@@ -2,4 +2,8 @@
 
 @tailwind components;
 
+.textbox {
+  @apply block w-full border-purple-700 border-2 outline-none bg-transparent h-full px-4 text-sm text-white;
+}
+
 @tailwind utilities;
